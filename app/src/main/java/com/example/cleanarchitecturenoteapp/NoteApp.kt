@@ -1,4 +1,8 @@
 package com.example.cleanarchitecturenoteapp
 
-class NoteApp {
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class NoteApp : Application() {
 }
